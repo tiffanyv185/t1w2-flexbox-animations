@@ -2,9 +2,8 @@
 * {
     --green-light: #C5C9A4;
     color: #612027;
+    --logo-color: #EB9486
 }
-
-
 
 
 body {
@@ -16,4 +15,42 @@ body {
     text-align: center;
     /* align items is vertical */
     align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizantal */
+    text-align: center;
+    /* align items is vertical */
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: var(--logo-color);
+    display: flex;
+    justify-content: center;
+    /* Text align is horizantal */
+    text-align: center;
+    /* align items is vertical */
+    align-items: center;
+    border-radius: 15%;
+}
+
+.logo p {
+    background-color: var(--green-light);
+    padding:1.5rem;
+    border-radius: 15%
+}
+
+nav a {
+   text-decoration: none;
+   background-color: var(--logo-color);
+   padding: 0.5rem;
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
+   
+
 }
