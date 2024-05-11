@@ -45,12 +45,50 @@ header {
     border-radius: 15%
 }
 
+nav {
+    background-color: white;
+    width: 100vw;
+    padding: 1rem ;
+}
 nav a {
    text-decoration: none;
    background-color: var(--logo-color);
    padding: 0.5rem;
    margin-left: 1.5rem;
    margin-right: 1.5rem;
-   
+   border-radius: 10%;
 
+
+}
+.training-option {
+    margin-top: 15dvw;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5%;
+
+}
+.training-option img{
+    width:75dvw
+}
+
+/* for desktop */
+
+@media screen and (min-width: 600px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+    }
+
+    .training-option {
+        margin-top: 5dvw;
+        justify-content: space-between;
+        
+
+    }
+
+    .training-option img{
+        width: 25dvw;
+    }
 }
