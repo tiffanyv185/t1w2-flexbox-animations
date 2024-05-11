@@ -1,0 +1,19 @@
+/* Creating variables */
+* {
+    --green-light: #C5C9A4;
+    color: #612027;
+}
+
+
+
+
+body {
+    background-color: var(--green-light);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizantal */
+    text-align: center;
+    /* align items is vertical */
+    align-items: center;
+}
